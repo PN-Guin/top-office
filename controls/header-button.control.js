@@ -1,5 +1,5 @@
-import svgLoader from '../services/svgloader.js';
-import pageChanger from '../services/pagechanger.js';
+import svgLoader from '../services/svgloader.service.js';
+import pageChanger from '../services/pagechanger.service.js';
 
 export default class {
   static parameters() {
@@ -15,7 +15,7 @@ export default class {
        'top-office/style.css'
      ];
    }
-   
+
   static template() {
     return `
     <style>

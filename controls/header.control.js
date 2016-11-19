@@ -1,5 +1,5 @@
-import formatDate from '../services/formatdate.js';
-import svgLoader from '../services/svgloader.js';
+import formatDate from '../services/formatdate.service.js';
+import svgLoader from '../services/svgloader.service.js';
 
 export default class {
   static parameters() {
@@ -15,7 +15,7 @@ export default class {
        'top-office/style.css'
      ];
    }
-   
+
   static template() {
     return `
     <style>
