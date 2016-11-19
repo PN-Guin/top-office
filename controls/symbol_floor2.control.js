@@ -5,9 +5,15 @@ export default class {
     };
   }
 
+  static styleUrls() {
+     return [
+       'top-office/style.css'
+     ];
+   }
 
   static template() {
     return `
+    <div class="symbol-floor">
         <svg id="svg" viewBox="0 0 120 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <g
            transform="translate(-63.179603,-125.21993)"
@@ -102,6 +108,7 @@ export default class {
              style="fill:#ffffff;fill-opacity:0.5098038;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         </g>
         </svg>
+        </div>
     `;
   }
 
