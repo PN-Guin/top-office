@@ -24,6 +24,8 @@
   /*--header-li-height: calc(var(--header-row-height) - var(--header-active-border-width));*/
   /* --switch-image-height: 450px; if you need to overwrite in demo do it here */
   /* --switch-image-width: 450px; if you need to overwrite in demo do it here */
+
+  --label-border-bottom: 1px solid black;
 }
 
 .layout.horizontal,
