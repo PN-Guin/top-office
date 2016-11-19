@@ -22,11 +22,13 @@ export default class {
 
     .card {
       width: 240px;
+      height:500px;
       /*min-height: 500px;
       max-height: 800px;*/
       margin: 10px;
       background-color: rgba(32, 43, 61, 0.63);
       border: 1px solid #FFFFFF;
+      padding: 15px;
     }
 
     .label-wrapper {

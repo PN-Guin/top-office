@@ -1,7 +1,7 @@
 export default class {
   static parameters() {
     return {
-      base: { type: 'text' }
+      label: { type: 'text' }
     };
   }
 
@@ -11,18 +11,11 @@ export default class {
      ];
    }
 
-  static template() {
-    return `
-      <style>
-      .label {
-        padding: 0 0 5px 0;
-        border-bottom: var(--label-border-bottom);
-        color: var(--label-text-color);
-      }
-      </style>
-      <div class="label">{{label}}</div>
-    `;
-  }
+   static template() {
+      return `
+        <div class="label">{{label}}</div>
+      `;
+    }
 
   createdCallback() {
   }

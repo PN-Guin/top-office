@@ -29,6 +29,13 @@
   --label-text-color: #FFFFFF;
 }
 
+.label {
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  width: 100%;
+}
+
 .symbol-floor{
     width: 120px;
     height: 60px;
