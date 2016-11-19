@@ -29,6 +29,9 @@ export default class {
       background-color: rgba(32, 43, 61, 0.63);
       border: 1px solid #FFFFFF;
       padding: 15px;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
     }
 
     .label-wrapper {
