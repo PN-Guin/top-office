@@ -5,6 +5,12 @@ export default class {
     };
   }
 
+  static styleUrls() {
+     return [
+       'top-office/style.css'
+     ];
+   }
+   
   static template() {
     return `
       <style>

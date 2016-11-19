@@ -5,10 +5,15 @@ export default class {
     };
   }
 
+  static styleUrls() {
+     return [
+       'top-office/style.css'
+     ];
+   }
+
   static template() {
     return `
     <style>
-    @import url("app/styles/layout.css");
     :host {
       --card-label-wrapper-height: 30px;
       --card-label-wrapper-background: rgba(199, 199, 199, 0.11);
