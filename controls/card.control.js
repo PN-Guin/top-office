@@ -16,7 +16,7 @@ export default class {
     <style>
     :host {
       --card-label-wrapper-height: 30px;
-      --card-label-wrapper-background: rgba(199, 199, 199, 0.11);
+      --card-label-wrapper-background: rgba(32, 43, 61, 0.63);
       --card-label-wrapper-font-size: 1.1em;
     }
 
@@ -40,7 +40,7 @@ export default class {
     }
     </style>
     <div class="card layout vertical center">
-      <div class="label-wrapper">{{label}}</div>
+      <!--<div class="label-wrapper">{{label}}</div>-->
       <slot id="control" name="control">empty</slot>
       <!--slot id="switch-image" name="switch-image"></slot-->
     </div>

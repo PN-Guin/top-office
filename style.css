@@ -26,6 +26,7 @@
   /* --switch-image-width: 450px; if you need to overwrite in demo do it here */
 
   --label-border-bottom: 1px solid black;
+  --label-text-color: #FFFFFF;
 }
 
 .layout.horizontal,
