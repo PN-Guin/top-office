@@ -41,7 +41,7 @@ export default class {
     </style>
     <div class="card layout vertical center">
       <!--<div class="label-wrapper">{{label}}</div>-->
-      <slot id="control" name="control">empty</slot>
+      <slot id="control" name="default">empty</slot>
       <!--slot id="switch-image" name="switch-image"></slot-->
     </div>
 
