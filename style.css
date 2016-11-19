@@ -30,6 +30,12 @@
 }
 
 .label {
+  background-color: RGBA(200,200,200,125);
+  width: 100%;
+  height: 100%;
+}
+
+.label {
   padding: 0 0 5px 0;
   border-bottom: 1px solid #FFFFFF;
   color: #FFFFFF;
