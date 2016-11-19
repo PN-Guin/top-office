@@ -21,13 +21,12 @@ export default class {
     }
 
     .card {
-      /*consider using appropriate css variables*/
-      box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.75);
-      -webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.75);
-      width: 300px;
+      width: 240px;
       /*min-height: 500px;
       max-height: 800px;*/
       margin: 10px;
+      background-color: rgba(32, 43, 61, 0.63);
+      border: 1px solid #FFFFFF;
     }
 
     .label-wrapper {
