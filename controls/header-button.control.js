@@ -1,17 +1,20 @@
 import svgLoader from '../services/svgloader.service.js';
+import pageChanger from '../services/pagechanger.service.js';
 
 export default class {
   static parameters() {
     return {
-      label: { type: 'string' }
+      label: { type: 'string' },
+      page: { type: 'address' },
+      'page-wrapper': { type: 'string' }
     };
   }
 
   static styleUrls() {
-    return [
-      'top-office/style.css'
-    ];
-  }
+     return [
+       'top-office/style.css'
+     ];
+   }
 
   static template() {
     return `
@@ -65,7 +68,8 @@ export default class {
     }
 
     </style>
-    <div class="btn">
+    <div class="btn" on-click="openPage">
+    
       <div class="btn-inner">
         <div class="btn-icon"></div>
         <div class="btn-label">{{label}}</div>
@@ -78,7 +82,8 @@ export default class {
 
   static components() {
     return {
-      svgLoader
+      svgLoader,
+      pageChanger
     };
   }
 
@@ -86,5 +91,9 @@ export default class {
     this.svgLoader.load('app/assets/icons/' + this.svgLoader.icon).then((data) => {
       this.$('.btn-icon').append(this.$(data));
     });
+  }
+
+  openPage() {
+    this.pageChanger.openPage(this.page, this['page-wrapper']);
   }
 }
